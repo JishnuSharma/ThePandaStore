@@ -1,7 +1,5 @@
 # [ThePandaStore]
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 ## Overview
 
 Welcome to [ThePandaStore], a dynamic e-commerce website powered by HTML, CSS, and JavaScript. This project showcases a range of pages to provide users with a complete online shopping experience.
