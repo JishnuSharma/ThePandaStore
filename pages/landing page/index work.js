@@ -1,4 +1,4 @@
-let images = ["images/main page products/display laptop.jpg","images/main page products/display headphones.jpeg","images/main page products/display cosmetics.jpg"];
+let images = ["/ThePandaStore/images/main page products/display laptop.jpg","/ThePandaStore/images/main page products/display headphones.jpeg","/ThePandaStore/images/main page products/display cosmetics.jpg"];
 let links = ["https://www.microsoft.com/en-in/surface/devices/surface-pro-9?activetab=pivot:overviewtab","https://www.boat-lifestyle.com/products/rockerz-551-anc-noise-cancelling-headphone","https://www.nykaa.com/maybelline-new-york-superstay-vinyl-ink-liquid-lipstick/p/7066987?productId=7066987&pps=1&skuId=7066975"];
 let imageIndex = 0;
 
