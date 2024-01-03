@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Bar */
+
+#logo{
+    font-size: 35px;
+}
+
+#logo a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282B;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 70px;
+    align-items: center;
+    padding: 30px;
+}
+
+#righthand{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navlink{
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+
+/* TOP DISPLAY START */
+
+#displayimages{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 60px 20px;
+    background-color: #28282B;
+}
+
+#topproduct{
+    width: 1200px;/*1024px;*/
+    height: 600px;/*536px;*/
+    transition: opacity 0.7s ease-in-out;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* TOP DISPLAY END */
+
+/* TOP PRODUCTS START */
+
+#top_prod{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#top_prod_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 55px;
+}
+
+#underline_top{
+    width: 650px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgb(69, 69, 28);
+    margin: 5px;
+}
+
+.top_product_card{
+    width: 320px;
+    height: 470px;
+    background-color: white;
+    border: 10px solid #28282B;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#top_products{
+    display: flex;
+    padding: 30px;
+}
+
+.product_image img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_name{
+    font-size: 25px;
+    padding: 10px 10px 6px 10px;
+    color: white;
+}
+
+.product_cost{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.product_rating{
+    display: inline;
+    font-size: 17px;
+    padding: 10px 0px 10px 10px;
+    color: gold;
+}
+
+.time_left{
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.card_info{
+    background-color: #28282B;
+    padding: 22px;
+}
+
+/* TOP PRODUCTS END */
+
+/* CATEGORIES START */
+
+#category_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.category_name{
+    background-color: #28282B;
+    padding: 50px 60px 50px 60px;
+    color: white;
+    border-radius: 20px;
+}
+
+.category_card{
+    width: 400px;
+    height: 250px;
+    background-color: red;
+    margin: 20px ;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#tech{
+    background: url("images/main page products/tech back category.jpg");
+    border: 10px solid #2b2b2b;
+}
+
+#cloth{
+    background: url("images/main page products/cloth back category.jpg");
+    border: 10px solid #2b2b2b;
+}
+
+#access{
+    background: url("images/main page products/access back category.jpg");
+    border: 10px solid #2b2b2b;
+}
+
+#appli{
+    background: url("images/main page products/appliance back category.jpg");
+    border: 10px solid #2b2b2b;
+}
+
+#food{
+    background: url("images/main page products/food back category.jpg");
+    border: 10px solid #2b2b2b;
+}
+
+#plant{
+    background: url("images/main page products/plant back category.jpg");
+    border: 10px solid #2b2b2b;
+}
+
+
+/* CATEOGRIES END */
+
+/* FOOTER START */
+
+#bottom_foot
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #28282B;
+    color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+    /* background: url("https://wallpapercave.com/wp/wp6403111.jpg"); */
+
+}
+
+#pagelinks{
+    display: flex;
+}
+
+#contactlinks{
+    display: flex;
+    padding: 30px 30px 10px 30px;
+}
+
+.social_icons{
+    font-size: 40px;
+    padding: 10px;
+}
+
+#indi_page{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#indi_page a{
+    color: white;
+}
+
+.categories_link{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.categories_link a{
+    color: white;
+}
+
+#pages{
+    padding: 20px;
+}
+
+#category_links{
+    padding:20px
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#newsletter{
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* FOOTER END */
