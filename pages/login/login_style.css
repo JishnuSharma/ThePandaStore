@@ -68,27 +68,26 @@ nav{
 
 /* Navigation Bar */
 
-/* FORM START */
+/* LOGIN FORM START */
 
-#for_head{
+#login_head{
     font-size: 45px;
     display: inline;
     color: white;
 }
 
-#form_container{
+#login_container{
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 120px 20px 0px 20px;
-    background-color: #28282B;
+    width: 100%;
+    padding: 250px 30px 10px 30px;
 }
 
-#sign_form{
+#login_form{
     border: 0.5px solid #28282b;
     padding: 30px 30px 10px 30px;
-    width: 600px;
+    width: 500px;
     border-radius: 20px;
 }
 
@@ -103,39 +102,11 @@ input{
     color: white;
 }
 
-#firstname, #lastname{
-    width: 49%;
-}
-
-#pass_inst{
-    display: flex;
-    padding: 20px 20px 0px 20px;
-    align-items: center;
-    justify-content: space-evenly;
-    color: white;
-    font-size: 17px;
-}
-
-#subform{
-    width: auto;
-    cursor: pointer;
-    transition: all 0.7s ease-in-out;
-}
-
-#buttn{
+#sub_button{
     width: 100%;
-    text-align: center;
-    padding: 5px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    
-}
-
-#subform:hover{
-    transform: scale(1.1);
-    background-color: white;
-    color: #28282B;
 }
 
 button{
@@ -147,51 +118,37 @@ button{
     border: 0.5px solid white;
     background-color: #28282B;
     color: white;
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
 }
 
-#correct{
+button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #28282B;
+}
+
+#sub{
     display: inline;
-    padding: 10px 25px  10px 25px;
-    background-color: greenyellow;
-    border: 1px solid green;
-    border-radius: 30px;
-    margin-left: 20px;
+    
 }
-
-#error{
-    display: inline;
-    padding: 10px 25px  10px 25px;
-    background-color: rgb(255, 175, 175);
-    border: 1px solid red;
-    border-radius: 30px;
-    margin-left: 20px;
-}
-
-#topper{
-    display: flex;
-    align-items: center;
-    justify-content: last baseline;
-}
-
-.valid-rule{
-    color: rgb(135, 255, 135);
-}
-
-/* FORM END */
+/* LOGIN FORM END */
 
 /* MORE INFROMATION START */
 
-#more_info{
+#more_in{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     font-size: 17px;
     color: white;
 }
 
-#more_info a{
+#content a{
     color: white;
 }
+
+
 
 /* MORE INFORMATION END */
