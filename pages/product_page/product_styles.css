@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*SCROLLBAR START*/
+
+/* width */
+::-webkit-scrollbar 
+{
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track 
+{
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb 
+{
+    background: #888; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+{
+    background: #555; 
+}
+
+/*SCROLLBAR END*/
+
+
+/* Navigation Bar */
+
+#logo{
+    font-size: 35px;
+}
+
+#logo a{
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #28282B;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 70px;
+    align-items: center;
+    padding: 40px 30px 40px 30px;
+}
+
+#righthand{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navlink{
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+
+/* PRODUCT DETAILS START */
+
+#top_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fix{
+    position: relative;
+}
+
+#product_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    width: 80%;
+}
+
+#product_image{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#product_information{
+    width: 50%;
+}
+
+#buying_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#user_buy{
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out
+}
+
+#user_buy:hover{
+    transform: scale(1.1);
+    background-color: burlywood;
+}
+
+#product_name{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#product_meta_information{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 0px;
+    font-size: 20px;
+}
+
+#availability_status{
+    padding: 20px;
+    margin-left: 40px;
+}
+
+#product_costing{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px 0px;
+    font-size: 28px;
+}
+
+#cost_cont{
+    display: flex;
+}
+
+#product_offer{
+    font-size: 20px;
+    align-self:flex-end;
+}
+
+#final_product_price{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+#product_price{
+    /* text-decoration:line-through; */
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#services_offerred{
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.service_icon{
+    font-size: 35px;
+}
+
+#spec_head{
+    padding: 20px 20px 20px 0px;
+    font-size: 25px;
+}
+
+#about_head{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.offer{
+    width: 100%;
+    text-align: center;
+}
+
+#spec_name{
+    font-weight: 800;
+    width: 150px;
+    display: inline-block;
+}
+
+#spec_value{
+    width: 100px;
+    display: inline-block;
+}
+
+#product_specifications{
+    display: flex;
+    font-size: 20px;
+}
+
+#item_specification{
+    width: 40%;
+}
+
+#about_the_item{
+    width: 60%;
+}
+
+ul{
+    font-size: 20px;
+}
+
+/* PRODUCT DETAILS END */
+
+/* REVIEW START */
+
+#review_section_bottom{
+    display: flex;
+    padding: 60px;
+    width: 90%;
+}
+
+#review_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#user_profile_pic{
+    display: flex;
+    padding: 20px;
+}
+
+#rate_value{
+    display: inline-block;
+}
+
+#user_profile_pic img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.user_personal{
+    display: flex;
+    align-items: center;
+}
+
+.user_name{
+    display: inline;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+#name_stuff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+}
+
+#left_reviews{
+    width: 40%;
+    padding: 20px;
+}
+
+#right_reviews{
+    width: 60%;
+    padding: 20px;
+}
+
+.user_written{
+    padding: 0px 20px 20px 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#review{
+    width: 100%;
+    height: 200px;
+}
+
+textarea{
+    resize:vertical;
+}
+
+.rating_name{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.rating_percent{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px 
+}
+
+.percent{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.bar{
+    background-color: red;
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 3px;
+}
+
+.over_bar{
+    background-color: black;
+    height: 20px;
+    border-radius: 3px;
+}
+
+#five{
+    width: 45%;
+}
+
+#four{
+    width: 35%;
+}
+
+#three{
+    width: 10%;
+}
+
+#two{
+    width: 4%;
+}
+
+#one{
+    width: 6%;
+}
+
+#add_review{
+    margin-top: 50px;
+}
+
+#rating_bars{
+    margin-top: 20px;
+    padding: 0px 20px 0px 0px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+#rating_heading{
+    font-size: 30px;
+}
+
+#total_reviews{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#user_visual_rating{
+    display: flex;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+#rate_value{
+    margin-left: 10px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.user_rating{
+    font-size: 20px;
+}
+
+#rev_sub{
+    padding: 7px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+/* REVIEW END */
