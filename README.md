@@ -1,8 +1,8 @@
-# [ThePandaStore]
+# ThePandaStore
 
 ## Overview
 
-Welcome to [ThePandaStore], a dynamic e-commerce website powered by HTML, CSS, and JavaScript. This project showcases a range of pages to provide users with a complete online shopping experience.
+Welcome to ThePandaStore, a dynamic e-commerce website powered by HTML, CSS, and JavaScript. This project showcases a range of pages to provide users with a complete online shopping experience.
 
 ## Pages
 
@@ -23,7 +23,7 @@ A personalized space for users to manage their accounts and preferences. HTML, C
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `git clone https://github.com/JishnuSharma/ThePandaStore.git`
 2. Open the project in your preferred code editor.
 3. Explore each HTML, CSS, and JavaScript file to understand the structure and functionality.
 4. Open the `index.html` file in your browser to start navigating through the website.
